@@ -6,6 +6,9 @@
 
 I'm not gonna write a long speech or something like that, I'd rather just let it speak for itself.
 
+Try it yourself on   
+[![StackBlitz Badge](https://img.shields.io/badge/StackBlitz-333?style=for-the-badge&logo=stackblitz&logoColor=white&color=1269D3)](https://stackblitz.com/edit/nativescript-sheets-vue3)
+
 Video:   
 https://lvls.boo/r/TkmL1L.mp4
 <details>
