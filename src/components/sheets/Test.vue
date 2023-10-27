@@ -7,10 +7,10 @@ const props = defineProps({
 });
 
 const tailwindDirections = {
-  bottom: 'align-bottom',
-  top: 'align-top',
-  right: 'align-right w-8/12',
-  left: 'align-left w-8/12',
+  bottom: 'align-bottom rounded-t-lg',
+  top: 'align-top rounded-b-lg',
+  right: 'align-right rounded-l-lg w-8/12',
+  left: 'align-left rounded-r-lg w-8/12',
 };
 </script>
 
@@ -18,7 +18,7 @@ const tailwindDirections = {
   <GridLayout
     :class="`${
       tailwindDirections[props.direction]
-    } p-8 bg-white text-black rounded-t-lg`"
+    } p-8 bg-white text-black`"
   >
     <StackLayout>
       <Label
